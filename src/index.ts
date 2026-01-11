@@ -10,7 +10,7 @@ app.get("/", (_req: Request, res: Response) => {
 
 // Iniciar o servidor na porta 8080
 app.listen(port, () => {
-  console.log(`Servidor iniciado na porta 8080 http://localhost:8080 ${port}`);
+  console.log(`Servidor iniciado na porta 8080 http://localhost:${port}`);
 });
 
 
